@@ -5,7 +5,8 @@ body {
 }
 
 .page-container {
-	background-color: white;
+	position: relative;
+	background-color: #ecf0f1;
 	max-width: 640px;
 	margin: 0 auto;
 }
@@ -50,6 +51,7 @@ body {
 	color: white;
   	text-decoration: none;
   	display: block;
+  	transition: .3s background-color;
 }
 
 .nav a:hover {
@@ -58,4 +60,80 @@ body {
 
 .blog-post {
 	padding: 40px 25px;
+}
+
+.blog-post a {
+	color: #d35400;
+	text-decoration: none;
+}
+
+.indent {
+	margin: 20px;
+}
+
+.divider {
+	border-bottom: 1px solid #888;
+	padding: 8px;
+}
+
+.blog-table {
+	margin: 20px 0;
+}
+
+.blog-table tr {
+
+}
+
+.blog-table th {
+	background-color: #95a5a6;
+  	border: 1.5px solid #888;
+  	padding: 5px;
+}
+
+.blog-table td {
+	border: 1.5px solid #888;
+	padding: 5px;
+}
+
+.sidebar {
+	background-color: white;
+    width: 30%;
+    position: absolute;
+    top: 288px;
+    left: 640px;
+    margin: 0 10px;
+    border-bottom: 3px solid #444;
+}
+
+.sidebar-nav {
+	list-style: none;
+    padding: 12px 12px 0;
+    font-weight: bold;
+    margin: 0 0 5px 0;
+}
+
+.sidebar-nav h4 {
+	margin-bottom: 10px;
+}
+
+.sidebar-nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0 10px;
+}
+
+.sidebar-nav lh {
+
+}
+
+.sidebar-nav li {
+	/*font-size: smaller;
+    color: #444;*/
+    padding: 0 0 8px;
+}
+
+.sidebar-nav a {
+	font-size: smaller;
+    color: #444;
+    text-decoration: none;
 }
