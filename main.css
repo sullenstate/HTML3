@@ -37,7 +37,7 @@ body {
 	text-align: right;
   	background-color: #34495e;
  	margin: 0;
-  	border-bottom: 6px solid #2c3e50;
+  	border-bottom: 6px solid #1F2C38;
 }
 
 .nav li {
@@ -55,7 +55,7 @@ body {
 }
 
 .nav a:hover {
-	background-color: #2c3e50;
+	background-color: #1F2C38;
 }
 
 .blog-post {
@@ -92,17 +92,33 @@ body {
 
 .blog-table td {
 	border: 1.5px solid #888;
-	padding: 5px;
+	padding: 7px;
+}
+
+.table-button {
+	background-color: #3498db;
+  	padding: .3em 1em;
+}
+
+a.table-button {
+  	color: white;
+  	font-size: small;
+}
+
+.codeblock {
+    background-color: #95a5a6;
+    padding: 20px 55px 10px;
+    overflow: auto;
 }
 
 .sidebar {
 	background-color: white;
-    width: 30%;
+    width: 33%;
     position: absolute;
     top: 288px;
-    left: 640px;
+    left: 635px;
     margin: 0 10px;
-    border-bottom: 3px solid #444;
+    border-bottom: 3px solid #1F2C38;
 }
 
 .sidebar-nav {
@@ -119,7 +135,7 @@ body {
 .sidebar-nav ul {
 	list-style: none;
 	margin: 0;
-	padding: 0 10px;
+	padding: 0 0 0 10px;
 }
 
 .sidebar-nav lh {
@@ -134,6 +150,13 @@ body {
 
 .sidebar-nav a {
 	font-size: smaller;
+    color: #444;
+    text-decoration: none;
+    transition: .2s font-size;
+}
+
+.sidebar-nav a:hover {
+	font-size: medium;
     color: #444;
     text-decoration: none;
 }
