@@ -97,12 +97,19 @@ body {
 
 .table-button {
 	background-color: #3498db;
+	border-radius: 4px;
   	padding: .3em 1em;
 }
 
 a.table-button {
   	color: white;
   	font-size: small;
+  	font-weight: lighter;
+}
+
+:hover.table-button {
+	background-color: #266894;
+  	transition: .3s background-color;
 }
 
 .codeblock {
@@ -113,10 +120,10 @@ a.table-button {
 
 .sidebar {
 	background-color: white;
-    width: 33%;
-    position: absolute;
-    top: 288px;
-    left: 635px;
+    width: 220px;
+    position: fixed;
+    top: 297px;
+    left: 957px;
     margin: 0 10px;
     border-bottom: 3px solid #1F2C38;
 }
