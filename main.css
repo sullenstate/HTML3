@@ -9,6 +9,7 @@ body {
 	background-color: #ecf0f1;
 	max-width: 640px;
 	margin: 0 auto;
+  height: 5000px;
 }
 
 .header {
@@ -121,9 +122,9 @@ a.table-button {
 .sidebar {
 	background-color: white;
     width: 220px;
-    position: fixed;
-    top: 297px;
-    left: 957px;
+    position: absolute;
+    top: 287px;
+    left: 635px;
     margin: 0 10px;
     border-bottom: 3px solid #1F2C38;
 }
